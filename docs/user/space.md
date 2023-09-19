@@ -1,61 +1,61 @@
 # 用户空间相关
 
 - [主页](#主页)
-  - [置顶视频](#置顶视频)
-    - [查询用户置顶视频](#查询用户置顶视频)
-    - [设置置顶视频](#设置置顶视频)
-    - [取消置顶视频](#取消置顶视频)
-  - [代表作视频](#代表作视频)
-    - [查询用户代表作视频列表](#查询用户代表作视频列表)
-    - [添加代表作视频](#添加代表作视频)
-    - [删除代表作视频](#删除代表作视频)
-  - [个人TAG](#个人TAG)
-    - [查看用户个人TAG](#查看用户个人TAG)
-    - [修改个人TAG](#修改个人TAG)
-  - [空间公告](#空间公告)
-    - [查看用户空间公告](#查看用户空间公告)
-    - [修改空间公告](#修改空间公告)
-  - [主页板块布局与权限](#主页板块布局与权限)
-    - [查询空间设置](#查询空间设置)
-    - [调整空间板块布局](#调整空间板块布局)
-    - [修改空间隐私权限](#修改空间隐私权限)
-  - [查询用户最近玩过的游戏](#查询用户最近玩过的游戏)
-  - [获取用户最近投币的视频明细](#获取用户最近投币的视频明细)
+	- [置顶视频](#置顶视频)
+		- [查询用户置顶视频](#查询用户置顶视频)
+		- [设置置顶视频](#设置置顶视频)
+		- [取消置顶视频](#取消置顶视频)
+	- [代表作视频](#代表作视频)
+		- [查询用户代表作视频列表](#查询用户代表作视频列表)
+		- [添加代表作视频](#添加代表作视频)
+		- [删除代表作视频](#删除代表作视频)
+	- [个人TAG](#个人tag)
+		- [查看用户个人TAG](#查看用户个人tag)
+		- [修改个人TAG](#修改个人tag)
+	- [空间公告](#空间公告)
+		- [查看用户空间公告](#查看用户空间公告)
+		- [修改空间公告](#修改空间公告)
+	- [主页板块布局与权限](#主页板块布局与权限)
+		- [查询空间设置](#查询空间设置)
+		- [调整空间板块布局](#调整空间板块布局)
+		- [修改空间隐私权限](#修改空间隐私权限)
+	- [查询用户最近玩过的游戏](#查询用户最近玩过的游戏)
+	- [获取用户最近投币的视频明细](#获取用户最近投币的视频明细)
 - [投稿](#投稿)
-  - [查询用户投稿视频明细](#查询用户投稿视频明细)
-  - [查询用户投稿相簿预览](#查询用户投稿相簿预览)
-  - [查询用户投稿相簿明细](#查询用户投稿相簿明细)
+	- [查询用户投稿视频明细](#查询用户投稿视频明细)
+	- [查询用户投稿相簿预览](#查询用户投稿相簿预览)
+	- [查询用户投稿相簿明细](#查询用户投稿相簿明细)
 - [频道](#频道)
-  - [查询用户频道列表](#查询用户频道列表)
-  - [查询用户频道中的视频](#查询用户频道中的视频)
-  - [创建频道](#创建频道)
-  - [修改频道](#修改频道)
-  - [删除频道](#删除频道)
-  - [频道添加视频](#频道添加视频)
-  - [频道删除视频](#频道删除视频)
-  - [调整频道视频排序](#调整频道视频排序)
-  - [检查频道中有无失效视频](#检查频道中有无失效视频)
+	- [查询用户频道列表](#查询用户频道列表)
+	- [查询用户频道中的视频](#查询用户频道中的视频)
+	- [创建频道](#创建频道)
+	- [修改频道](#修改频道)
+	- [删除频道](#删除频道)
+	- [频道添加视频](#频道添加视频)
+	- [频道删除视频](#频道删除视频)
+	- [调整频道视频排序](#调整频道视频排序)
+	- [检查频道中有无失效视频](#检查频道中有无失效视频)
 - [收藏](#收藏)
-  - [查询用户创建的视频收藏夹](#查询用户创建的视频收藏夹)
-  - [查询用户收藏的视频收藏夹](#查询用户收藏的视频收藏夹)
+	- [查询用户创建的视频收藏夹](#查询用户创建的视频收藏夹)
+	- [查询用户收藏的视频收藏夹](#查询用户收藏的视频收藏夹)
 - [课程](#课程)
-  - [查询用户发布的课程列表](#查询用户发布的课程列表)
+	- [查询用户发布的课程列表](#查询用户发布的课程列表)
 - [订阅](#订阅)
-  - [查询用户追番预览列表](#查询用户追番预览列表)
-  - [查询用户追番（追剧）明细](#查询用户追番（追剧）明细)
-  - [查询用户关注的TAG（话题）](#查询用户关注的TAG（话题）)
+	- [查询用户追番预览列表](#查询用户追番预览列表)
+	- [查询用户追番（追剧）明细](#查询用户追番追剧明细)
+	- [查询用户关注的TAG（话题）](#查询用户关注的tag话题)
 
 ---
 
 ## 主页
 
-<img src="/imgs/home.svg" width="100" height="100" />
+<img src="../../assets/img/home.svg" width="100" height="100" />
 
 ### 置顶视频
 
 #### 查询用户置顶视频
 
->http://api.bilibili.com/x/space/top/arc
+>https://api.bilibili.com/x/space/top/arc
 
 *请求方式：GET*
 
@@ -92,15 +92,15 @@
 | pubdate     | num  | 稿件发布时间                   | 时间戳                                                       |
 | ctime       | num  | 用户提交稿件的时间             | 时间戳                                                       |
 | desc        | str  | 视频简介                       |                                                              |
-| state       | num  | 视频状态                       | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`state`备注 |
-| attribute   | num  | 稿件属性位配置                 | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`attribute`备注 |
+| state       | num  | 视频状态                       | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`state`备注 |
+| attribute   | num  | 稿件属性位配置                 | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`attribute`备注 |
 | duration    | num  | 视频总计持续时长（所有分P）    | 单位为秒                                                     |
-| rights      | obj  | 视频属性标志                   | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`rights`对象 |
-| owner       | obj  | 视频UP主信息                   | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`owner`对象 |
-| stat        | obj  | 视频状态数                     | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`stat`对象 |
+| rights      | obj  | 视频属性标志                   | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`rights`对象 |
+| owner       | obj  | 视频UP主信息                   | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`owner`对象 |
+| stat        | obj  | 视频状态数                     | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`stat`对象 |
 | dynamic     | str  | 视频同步发布的的动态的文字内容 | 无为空                                                       |
 | cid         | num  | 视频1P cid                     |                                                              |
-| dimension   | obj  | 视频1P分辨率                   | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`dimension`对象 |
+| dimension   | obj  | 视频1P分辨率                   | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`dimension`对象 |
 | bvid        | str  | 稿件bvid                       |                                                              |
 | reason      | str  | 置顶视频备注                   |                                                              |
 | inter_video | bool | 是否为合作视频                 | false：否<br />true：是                                      |
@@ -110,7 +110,7 @@
 查询用户`mid=23215368`的置顶视频
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/top/arc' \
+curl -G 'https://api.bilibili.com/x/space/top/arc' \
 --data-urlencode 'vmid=23215368'
 ```
 
@@ -186,7 +186,7 @@ curl -G 'http://api.bilibili.com/x/space/top/arc' \
 
 #### 设置置顶视频
 
-> http://api.bilibili.com/x/space/top/arc/set
+> https://api.bilibili.com/x/space/top/arc/set
 
 *请求方式：POST*
 
@@ -218,7 +218,7 @@ curl -G 'http://api.bilibili.com/x/space/top/arc' \
 avid方式：
 
 ```shell
-curl 'http://api.bilibili.com/x/space/top/arc/set' \
+curl 'https://api.bilibili.com/x/space/top/arc/set' \
 --data-urlencode 'aid=98948772' \
 -b 'SESSDATA=xxx'
 ```
@@ -226,7 +226,7 @@ curl 'http://api.bilibili.com/x/space/top/arc/set' \
 bvid方式：
 
 ```shell
-curl 'http://api.bilibili.com/x/space/top/arc/set' \
+curl 'https://api.bilibili.com/x/space/top/arc/set' \
 --data-urlencode 'bvid=BV1n741127LD' \
 -b 'SESSDATA=xxx'
 ```
@@ -246,7 +246,7 @@ curl 'http://api.bilibili.com/x/space/top/arc/set' \
 
 #### 取消置顶视频
 
-> http://api.bilibili.com/x/space/top/arc/cancel
+> https://api.bilibili.com/x/space/top/arc/cancel
 
 *请求方式：POST*
 
@@ -271,7 +271,7 @@ curl 'http://api.bilibili.com/x/space/top/arc/set' \
 **示例：**
 
 ```shell
-curl 'http://api.bilibili.com/x/space/top/arc/cancel' \
+curl 'https://api.bilibili.com/x/space/top/arc/cancel' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx'
 ```
@@ -293,7 +293,7 @@ curl 'http://api.bilibili.com/x/space/top/arc/cancel' \
 
 #### 查询用户代表作视频列表
 
-> http://api.bilibili.com/x/space/masterpiece
+> https://api.bilibili.com/x/space/masterpiece
 
 *请求方式：GET*
 
@@ -335,7 +335,7 @@ curl 'http://api.bilibili.com/x/space/top/arc/cancel' \
 查询用户`mid=23215368`的代表作视频列表
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/masterpiece' \
+curl -G 'https://api.bilibili.com/x/space/masterpiece' \
 --data-urlencode 'vmid=23215368'
 ```
 
@@ -524,7 +524,7 @@ curl -G 'http://api.bilibili.com/x/space/masterpiece' \
 
 #### 添加代表作视频
 
-> http://api.bilibili.com/x/space/masterpiece/add
+> https://api.bilibili.com/x/space/masterpiece/add
 
 *请求方式：POST*
 
@@ -558,7 +558,7 @@ curl -G 'http://api.bilibili.com/x/space/masterpiece' \
 avid方式：
 
 ```shell
-curl 'http://api.bilibili.com/x/space/masterpiece/add' \
+curl 'https://api.bilibili.com/x/space/masterpiece/add' \
 --data-urlencode 'aid=94916552' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx'
@@ -567,7 +567,7 @@ curl 'http://api.bilibili.com/x/space/masterpiece/add' \
 bvid方式：
 
 ```shell
-curl 'http://api.bilibili.com/x/space/masterpiece/add' \
+curl 'https://api.bilibili.com/x/space/masterpiece/add' \
 --data-urlencode 'bvid=BV1ZE411K7ux' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx'
@@ -588,7 +588,7 @@ curl 'http://api.bilibili.com/x/space/masterpiece/add' \
 
 #### 删除代表作视频
 
-> http://api.bilibili.com/x/space/masterpiece/cancel
+> https://api.bilibili.com/x/space/masterpiece/cancel
 
 *请求方式：POST*
 
@@ -619,7 +619,7 @@ curl 'http://api.bilibili.com/x/space/masterpiece/add' \
 avid方式：
 
 ```shell
-curl 'api.bilibili.com/x/space/masterpiece/cancel' \
+curl 'https://api.bilibili.com/x/space/masterpiece/cancel' \
 --data-urlencode 'aid=59765630' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx'
@@ -628,7 +628,7 @@ curl 'api.bilibili.com/x/space/masterpiece/cancel' \
 bvid方式：
 
 ```shell
-curl 'http://api.bilibili.com/x/space/masterpiece/cancel' \
+curl 'https://api.bilibili.com/x/space/masterpiece/cancel' \
 --data-urlencode 'bvid=BV1Yt41137T6' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx'
@@ -638,7 +638,7 @@ curl 'http://api.bilibili.com/x/space/masterpiece/cancel' \
 
 #### 查看用户个人TAG
 
-> http://api.bilibili.com/x/space/acc/tags
+> https://api.bilibili.com/x/space/acc/tags
 
 *请求方式：GET*
 
@@ -690,7 +690,7 @@ curl 'http://api.bilibili.com/x/space/masterpiece/cancel' \
 查看用户`mid=53456`的个人TAG
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/acc/tags' \
+curl -G 'https://api.bilibili.com/x/space/acc/tags' \
 --data-urlencode 'mid=53456'
 ```
 
@@ -721,7 +721,7 @@ curl -G 'http://api.bilibili.com/x/space/acc/tags' \
 
 #### 修改个人TAG
 
-> http://api.bilibili.com/x/space/acc/tags/set
+> https://api.bilibili.com/x/space/acc/tags/set
 
 *请求方式：POST*
 
@@ -751,7 +751,7 @@ curl -G 'http://api.bilibili.com/x/space/acc/tags' \
 修改个人TAG为`minecraft,技术宅,大佬,小哥哥,可爱`
 
 ```shell
-curl 'http://api.bilibili.com/x/space/acc/tags/set' \
+curl 'https://api.bilibili.com/x/space/acc/tags/set' \
 --data-urlencode 'tags=minecraft,技术宅,大佬,小哥哥,可爱' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx;DedeUserID=1'
@@ -774,7 +774,7 @@ curl 'http://api.bilibili.com/x/space/acc/tags/set' \
 
 #### 查看用户空间公告
 
-> http://api.bilibili.com/x/space/notice
+> https://api.bilibili.com/x/space/notice
 
 *请求方式：GET*
 
@@ -800,7 +800,7 @@ curl 'http://api.bilibili.com/x/space/acc/tags/set' \
 查看用户`mid=53456`的空间公告
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/notice' \
+curl -G 'https://api.bilibili.com/x/space/notice' \
 --data-urlencode 'mid=53456'
 ```
 
@@ -820,7 +820,7 @@ curl -G 'http://api.bilibili.com/x/space/notice' \
 
 #### 修改空间公告
 
-> http://api.bilibili.com/x/space/notice/set
+> https://api.bilibili.com/x/space/notice/set
 
 *请求方式：POST*
 
@@ -848,7 +848,7 @@ curl -G 'http://api.bilibili.com/x/space/notice' \
 修改个人空间公告为`鸽子`
 
 ```shell
-curl 'http://api.bilibili.com/x/space/notice/set' \
+curl 'https://api.bilibili.com/x/space/notice/set' \
 --data-urlencode 'notice=鸽子' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx'
@@ -1188,7 +1188,7 @@ curl 'http://space.bilibili.com/ajax/settings/setPrivacy' \
 
 ### 查询用户最近玩过的游戏
 
-> http://api.bilibili.com/x/space/lastplaygame 
+> https://api.bilibili.com/x/space/lastplaygame 
 
 *请求方式：GET*
 
@@ -1230,7 +1230,7 @@ curl 'http://space.bilibili.com/ajax/settings/setPrivacy' \
 查询`mid=2`的最近玩过的游戏
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/lastplaygame' \
+curl -G 'https://api.bilibili.com/x/space/lastplaygame' \
 --data-urlencode 'mid=2'
 ```
 
@@ -1276,7 +1276,7 @@ curl -G 'http://api.bilibili.com/x/space/lastplaygame' \
 
 ### 获取用户最近投币的视频明细
 
-> http://api.bilibili.com/x/space/coin/video
+> https://api.bilibili.com/x/space/coin/video
 
 *请求方式：GET*
 
@@ -1311,7 +1311,7 @@ curl -G 'http://api.bilibili.com/x/space/lastplaygame' \
 
 `data`数组中的对象：
 
-基本同[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的data对象
+基本同[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的data对象
 
 **示例：**
 
@@ -1519,11 +1519,11 @@ curl -G 'http://space.bilibili.com/x/space/coin/video' \
 
 ## 投稿
 
-<img src="/imgs/video_up.svg" width="100" height="100" />
+<img src="../../assets/img/video_up.svg" width="100" height="100" />
 
 ### 查询用户投稿视频明细
 
-> http://api.bilibili.com/x/space/arc/search
+> https://api.bilibili.com/x/space/arc/search
 
 *请求方式：GET*
 
@@ -1633,7 +1633,7 @@ curl -G 'http://space.bilibili.com/x/space/coin/video' \
 以每页2项查询用户`mid=53456`的第1页投稿视频明细
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/arc/search' \
+curl -G 'https://api.bilibili.com/x/space/arc/search' \
 --data-urlencode 'mid=53456' \
 --data-urlencode 'ps=2' \
 --data-urlencode 'pn=1'
@@ -1740,7 +1740,7 @@ curl -G 'http://api.bilibili.com/x/space/arc/search' \
 
 ### 查询用户投稿相簿预览
 
-> http://api.bilibili.com/x/space/album/index
+> https://api.bilibili.com/x/space/album/index
 
 *请求方式：GET*
 
@@ -1808,7 +1808,7 @@ curl -G 'http://api.bilibili.com/x/space/arc/search' \
 查询用户`mid=53456`的投稿相簿预览
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/album/index' \
+curl -G 'https://api.bilibili.com/x/space/album/index' \
 --data-urlencode 'mid=53456' \
 --data-urlencode 'ps=2'
 ```
@@ -1869,7 +1869,7 @@ curl -G 'http://api.bilibili.com/x/space/album/index' \
 
 ### 查询用户投稿相簿明细
 
-> http://api.vc.bilibili.com/link_draw/v1/doc/doc_list
+> https://api.vc.bilibili.com/link_draw/v1/doc/doc_list
 
 *请求方式：GET*
 
@@ -1943,7 +1943,7 @@ curl -G 'http://api.bilibili.com/x/space/album/index' \
 查询用户`mid=53456`的投稿明细中的全部类型
 
 ```shell
-curl -G 'http://api.vc.bilibili.com/link_draw/v1/doc/doc_list' \
+curl -G 'https://api.vc.bilibili.com/link_draw/v1/doc/doc_list' \
 --data-urlencode 'uid=2' \
 --data-urlencode 'page_num=1' \
 --data-urlencode 'page_size=2' \
@@ -2013,11 +2013,11 @@ curl -G 'http://api.vc.bilibili.com/link_draw/v1/doc/doc_list' \
 
 ## 频道
 
-<img src="/imgs/channel.svg" width="100" height="100" />
+<img src="../../assets/img/channel.svg" width="100" height="100" />
 
 ### 查询用户频道列表
 
-> http://api.bilibili.com/x/space/channel/list
+> https://api.bilibili.com/x/space/channel/list
 
 *请求方式：GET*
 
@@ -2070,7 +2070,7 @@ curl -G 'http://api.vc.bilibili.com/link_draw/v1/doc/doc_list' \
 查询用户`mid=53456`的频道列表
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/channel/list' \
+curl -G 'https://api.bilibili.com/x/space/channel/list' \
 --data-urlencode 'mid=53456'
 ```
 
@@ -2143,7 +2143,7 @@ curl -G 'http://api.bilibili.com/x/space/channel/list' \
 
 ### 查询用户频道中的视频
 
-> http://api.bilibili.com/x/space/channel/video
+> https://api.bilibili.com/x/space/channel/video
 
 *请求方式：GET*
 
@@ -2212,7 +2212,7 @@ curl -G 'http://api.bilibili.com/x/space/channel/list' \
 查询用户`mid=53456`的频道`170`中的视频
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/channel/video' \
+curl -G 'https://api.bilibili.com/x/space/channel/video' \
 --data-urlencode 'mid=53456' \
 --data-urlencode 'cid=170' \
 --data-urlencode 'ps=2' \
@@ -2362,7 +2362,7 @@ curl -G 'http://api.bilibili.com/x/space/channel/video' \
 
 ### 创建频道
 
-> http://api.bilibili.com/x/space/channel/add
+> https://api.bilibili.com/x/space/channel/add
 
 *请求方式：POST*
 
@@ -2400,7 +2400,7 @@ curl -G 'http://api.bilibili.com/x/space/channel/video' \
 创建名为`test1`的频道，简介为空
 
 ```shell
-curl 'http://api.bilibili.com/x/space/channel/add' \
+curl 'https://api.bilibili.com/x/space/channel/add' \
 --data-urlencode 'name=test1' \
 --data-urlencode 'intro=' \
 --data-urlencode 'csrf=xxx' \
@@ -2425,7 +2425,7 @@ curl 'http://api.bilibili.com/x/space/channel/add' \
 
 ### 修改频道
 
-> http://api.bilibili.com/x/space/channel/edit
+> https://api.bilibili.com/x/space/channel/edit
 
 *请求方式：POST*
 
@@ -2455,7 +2455,7 @@ curl 'http://api.bilibili.com/x/space/channel/add' \
 修改频道`138996`名称为`测试`，简介为`123456`
 
 ```shell
-curl 'http://api.bilibili.com/x/space/channel/edit' \
+curl 'https://api.bilibili.com/x/space/channel/edit' \
 --data-urlencode 'cid=138996' \
 --data-urlencode 'name=测试' \
 --data-urlencode 'intro=123456' \
@@ -2478,7 +2478,7 @@ curl 'http://api.bilibili.com/x/space/channel/edit' \
 
 ### 删除频道
 
-> http://api.bilibili.com/x/space/channel/del
+> https://api.bilibili.com/x/space/channel/del
 
 *请求方式：POST*
 
@@ -2506,7 +2506,7 @@ curl 'http://api.bilibili.com/x/space/channel/edit' \
 删除频道`138996`
 
 ```shell
-curl 'http://api.bilibili.com/x/space/channel/del' \
+curl 'https://api.bilibili.com/x/space/channel/del' \
 --data-urlencode 'cid=138996' \
 --data-urlencode 'csrf=xxx' \
 -b 'SESSDATA=xxx'
@@ -2527,7 +2527,7 @@ curl 'http://api.bilibili.com/x/space/channel/del' \
 
 ### 频道添加视频
 
-> http://api.bilibili.com/x/space/channel/video/add
+> https://api.bilibili.com/x/space/channel/video/add
 
 *请求方式：POST*
 
@@ -2571,7 +2571,7 @@ curl 'http://api.bilibili.com/x/space/channel/del' \
 向频道`138995`中添加视频`av583785685`和`av243322853`
 
 ```shell
-curl 'http://api.bilibili.com/x/space/channel/video/add' \
+curl 'https://api.bilibili.com/x/space/channel/video/add' \
 --data-urlencode 'cid=138995' \
 --data-urlencode 'aids=583785685,243322853' \
 --data-urlencode 'csrf=xxx' \
@@ -2594,7 +2594,7 @@ curl 'http://api.bilibili.com/x/space/channel/video/add' \
 
 ### 频道删除视频
 
-> http://api.bilibili.com/x/space/channel/video/del
+> https://api.bilibili.com/x/space/channel/video/del
 
 *请求方式：POST*
 
@@ -2625,7 +2625,7 @@ curl 'http://api.bilibili.com/x/space/channel/video/add' \
 删除频道`138995`中的视频`av583785685`
 
 ```shell
-curl 'http://api.bilibili.com/x/space/channel/video/del' \
+curl 'https://api.bilibili.com/x/space/channel/video/del' \
 --data-urlencode 'cid=138995' \
 --data-urlencode 'aid=583785685' \
 --data-urlencode 'csrf=xxx' \
@@ -2647,7 +2647,7 @@ curl 'http://api.bilibili.com/x/space/channel/video/del' \
 
 ### 调整频道视频排序
 
-> http://api.bilibili.com/x/space/channel/video/sort
+> https://api.bilibili.com/x/space/channel/video/sort
 
 *请求方式：POST*
 
@@ -2677,7 +2677,7 @@ curl 'http://api.bilibili.com/x/space/channel/video/del' \
 调整`138995`中的视频`av583785685`位置为倒数第2
 
 ```shell
-curl 'http://api.bilibili.com/x/space/channel/video/sort' \
+curl 'https://api.bilibili.com/x/space/channel/video/sort' \
 --data-urlencode 'cid=138995' \
 --data-urlencode 'aid=583785685' \
 --data-urlencode 'to=2' \
@@ -2700,7 +2700,7 @@ curl 'http://api.bilibili.com/x/space/channel/video/sort' \
 
 ### 检查频道中有无失效视频
 
-> http://api.bilibili.com/x/space/channel/video/check
+> https://api.bilibili.com/x/space/channel/video/check
 
 *请求方式：GET*
 
@@ -2727,7 +2727,7 @@ curl 'http://api.bilibili.com/x/space/channel/video/sort' \
 检查频道`138995`
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/channel/video/check
+curl -G 'https://api.bilibili.com/x/space/channel/video/check
 --data-urlencode 'cid=138995' \
 -b 'SESSDATA=xxx'
 ```
@@ -2747,11 +2747,11 @@ curl -G 'http://api.bilibili.com/x/space/channel/video/check
 
 ## 收藏
 
-<img src="/imgs/collect.svg" width="100" height="100" />
+<img src="../../assets/img/collect.svg" width="100" height="100" />
 
 ### 查询用户创建的视频收藏夹
 
-> http://api.bilibili.com/x/v3/fav/folder/created/list-all
+> https://api.bilibili.com/x/v3/fav/folder/created/list-all
 
 *请求方式：GET*
 
@@ -2816,7 +2816,7 @@ curl -G 'http://api.bilibili.com/x/space/channel/video/check
 查询用户`mid=7792521`的收藏夹列表
 
 ```shell
-curl -G 'http://api.bilibili.com/x/v3/fav/folder/created/list-all' \
+curl -G 'https://api.bilibili.com/x/v3/fav/folder/created/list-all' \
 --data-urlencode 'up_mid=7792521' \
 -b 'SESSDATA=xxx'
 ```
@@ -2880,7 +2880,7 @@ curl -G 'http://api.bilibili.com/x/v3/fav/folder/created/list-all' \
 
 ### 查询用户收藏的视频收藏夹
 
-> http://api.bilibili.com/x/v3/fav/folder/collected/list
+> https://api.bilibili.com/x/v3/fav/folder/collected/list
 
 *请求方式：GET*
 
@@ -2957,7 +2957,7 @@ curl -G 'http://api.bilibili.com/x/v3/fav/folder/created/list-all' \
 查询用户`mid=293793435`的收藏夹收藏列表
 
 ```shell
-curl -G 'http://api.bilibili.com/x/v3/fav/folder/collected/list' \
+curl -G 'https://api.bilibili.com/x/v3/fav/folder/collected/list' \
 --data-urlencode 'up_mid=293793435' \
 --data-urlencode 'ps=20' \
 --data-urlencode 'pn=1' \
@@ -3021,11 +3021,11 @@ curl -G 'http://api.bilibili.com/x/v3/fav/folder/collected/list' \
 
 ## 课程
 
-<img src="/imgs/class.svg" width="100" height="100" />
+<img src="../../assets/img/class.svg" width="100" height="100" />
 
 ###  查询用户发布的课程列表
 
-> http://api.bilibili.com/pugv/app/web/season/page
+> https://api.bilibili.com/pugv/app/web/season/page
 
 *请求方式：GET*
 
@@ -3091,7 +3091,7 @@ curl -G 'http://api.bilibili.com/x/v3/fav/folder/collected/list' \
 查询用户`mid=33683045`的课程发布列表
 
 ```shell
-curl -G 'http://api.bilibili.com/pugv/app/web/season/page' \
+curl -G 'https://api.bilibili.com/pugv/app/web/season/page' \
 --data-urlencode 'mid=33683045' \
 --data-urlencode 'ps=5' \
 --data-urlencode 'pn=1'
@@ -3176,7 +3176,7 @@ curl -G 'http://api.bilibili.com/pugv/app/web/season/page' \
 
 ## 订阅
 
-<img src="/imgs/sub.svg" width="100" height="100" />
+<img src="../../assets/img/sub.svg" width="100" height="100" />
 
 ### 查询用户追番预览列表
 
@@ -3292,7 +3292,7 @@ curl -G 'http://space.bilibili.com/ajax/Bangumi/getList' \
 
 ### 查询用户追番（追剧）明细
 
-> http://api.bilibili.com/x/space/bangumi/follow/list
+> https://api.bilibili.com/x/space/bangumi/follow/list
 
 *请求方式：GET*
 
@@ -3346,7 +3346,7 @@ curl -G 'http://space.bilibili.com/ajax/Bangumi/getList' \
 查看用户`mid=14082`的追番明细
 
 ```shell
-curl -G 'http://api.bilibili.com/x/space/bangumi/follow/list' \
+curl -G 'https://api.bilibili.com/x/space/bangumi/follow/list' \
 --data-urlencode 'vmid=14082' \
 --data-urlencode 'type=1' \
 --data-urlencode 'ps=2' \

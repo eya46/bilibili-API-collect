@@ -2,7 +2,7 @@
     <img src="./assets/img/logo.png" width="250" height="200">
 </p>
 <h1 align="center">哔哩哔哩-API收集整理</h1>
-<p align="center">
+<p align="center" class="shields">
     <a href="https://github.com/SocialSisterYi/bilibili-API-collect/issues" style="text-decoration:none">
         <img src="https://img.shields.io/github/issues/SocialSisterYi/bilibili-API-collect.svg" alt="GitHub issues"/>
     </a>
@@ -77,7 +77,7 @@ B站 API 采用 C/S 结构，大多数接口为 REST API 和 gRPC，少部分接
   - [ ] [个人中心](docs/login/member_center.md)
   - [ ] [注销登录](docs/login/exit.md)
   - [x] [登录记录](docs/login/login_notice.md)
-  - [x] [Web 端 Coookie 刷新](docs/login/cookie_refresh.md)
+  - [x] [Web 端 Cookie 刷新](docs/login/cookie_refresh.md)
 - [ ] [消息中心](docs/message)
   - [ ] [通知类消息](docs/message/msg.md)
   - [ ] [私信](docs/message/private_msg.md)
@@ -236,7 +236,7 @@ B站 API 采用 C/S 结构，大多数接口为 REST API 和 gRPC，少部分接
   - [x] [data.index解析](docs/manga/index_file.md)
 - [ ] 哔哩哔哩游戏
 - [ ] [终端网络查询](docs/clientinfo)
-  - [x] [基于ip的地理位置查询](docs/clientinfo/ip.md)
+  - [x] [基于 ip 的地理位置查询](docs/clientinfo/ip.md)
   - [x] [终端信息查询](docs/clientinfo/client_info.md)
 - [ ] [其他](docs/misc)
   - [x] [获取当前时间戳](docs/misc/time_stamp.md)
@@ -340,3 +340,9 @@ OR Aifadian：[https://afdian.net/@ShakaiAneE](https://afdian.net/@ShakaiAneE)
 - [grpc/grpc](https://github.com/grpc/grpc): The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) 
 
  - [quicktype](https://github.com/quicktype/quicktype) quicktype generates strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries, making it a breeze to work with JSON type-safely in many programming languages.一键生成多种语言的json反序列化所需类,以便于快速反序列化, 有网页版
+
+<style scoped>
+  .shields a {
+    margin: auto .5em;
+  }
+</style>
